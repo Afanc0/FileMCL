@@ -9,7 +9,7 @@ SRCS = main.cpp
 EXEC = main
 
 all:
-	$(CXX) $(CXXFLAGS) $(SRCS) -o $(EXEC)
+	$(CXX) $(CXXFLAGS) $(SRCS) -o $(EXEC) -lncurses
 
 clean:
 	rm -f $(EXEC)
